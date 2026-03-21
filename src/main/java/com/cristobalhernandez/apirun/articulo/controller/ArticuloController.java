@@ -12,6 +12,6 @@ public class ArticuloController {
     
     @GetMapping("/saluda")
     public String saludar() {
-        return "Hola Cristóbal Hdez";
+        return "Hola Cristóbal Hdez C.";
     }
 }
