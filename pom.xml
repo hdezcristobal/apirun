@@ -48,6 +48,13 @@
             <scope>runtime</scope>
         </dependency>
         
+        <!-- 2. El socket factory (Esta es la que hace la magia de conexión) -->
+        <dependency>
+            <groupId>com.google.cloud.sql</groupId>
+            <artifactId>sql-server-socket-factory</artifactId>
+            <version>1.15.1</version>
+        </dependency>
+    
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
