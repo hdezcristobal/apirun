@@ -57,7 +57,9 @@
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>spring-cloud-gcp-starter-sql-sqlserver</artifactId>
+            <version>5.5.0</version> <!-- Ponemos la versión aquí directamente -->
         </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -70,18 +72,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.google.cloud</groupId>
-                <artifactId>spring-cloud-gcp-dependencies</artifactId>
-                <version>6.1.0</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <build>
         <plugins>
