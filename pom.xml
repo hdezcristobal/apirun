@@ -60,13 +60,6 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-        
-        <dependency>
-            <groupId>com.google.cloud</groupId>
-            <artifactId>spring-cloud-gcp-starter-sql-sqlserver</artifactId>
-            <version>5.5.0</version> <!-- Ponemos la versión aquí directamente -->
-        </dependency>
-
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
