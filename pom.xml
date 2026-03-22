@@ -57,7 +57,7 @@
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>spring-cloud-gcp-starter-sql-sqlserver</artifactId>
-            <version>7.0.4</version> 
+            <version>5.5.0</version> 
         </dependency>
 
         <dependency>
